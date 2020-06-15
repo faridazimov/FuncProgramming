@@ -1,6 +1,6 @@
 -- Реалізувати алгоритм сортування insert sort.
 
--- ort :: Ord a => [a] -> [a]
+sort :: Ord a => [a] -> [a]
 sort xs = inserts xs []
 
 inserts :: Ord a => [a] -> [a] -> [a]
